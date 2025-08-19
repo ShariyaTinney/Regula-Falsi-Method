@@ -7,7 +7,7 @@ using namespace std;
 #define MAX_ITER 100
 #define EPSILON 0.001
 
-// তোমার ফাংশন: f(x) = x³ - x - 11
+//  f(x) = x³ - x - 11
 double func(double x) {
     return x*x*x - x - 11;
 }
@@ -58,7 +58,8 @@ void regulaFalsi(double a, double b)
 }
 
 int main() {
-    double a = 2, b = 3; // প্রাথমিক অনুমান (এখানে f(2)*f(3)<0)
+    double a = 2, b = 3; //  f(2)*f(3)<0)
     regulaFalsi(a, b);
     return 0;
 }
+
