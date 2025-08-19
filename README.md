@@ -42,7 +42,7 @@ To run this project, you'll need:
 🧠 How It Works
 ✅The algorithm requires two initial values a and b, where f(a) and f(b) must have opposite signs.
 ✅At each iteration, the method computes the new approximation c for the root using the formula:
-  c = \frac{a \cdot f(b) - b \cdot f(a)}{f(b) - f(a)}
+  c = a.f(b) - b.f(a)/f(b) - f(a)
 ✅If "f(c)" is close enough to zero (within the tolerance EPSILON), the process stops and returns c as the root.
 ✅Otherwise, the algorithm adjusts the interval [a, b] to continue narrowing down the search based on the sign of f(c).
 
@@ -88,8 +88,8 @@ For questions or feedback, feel free to contact:
 "Shariya Tinney" — \[[shariyatinney.gmail@example.com](mailto:shariyatinney.gmail@example.com)]
 
 > Reminder:
-> ✅ Replace "Shariya Tinney" in the Git clone URL
-> ✅ Replace "Shariya Tinney" and "shariyatinney.email@example.com" with your actual "Shariya Tinney" and "shariyatinney.email@example.com" before publishing.
+> ✅ Replace "Your_UserName" in the Git clone URL
+> ✅ Replace "Your Name" and "your.email@example.com" with your actual "Name" and "your.email@example.com" before publishing.
 
 
 📚 Resources
